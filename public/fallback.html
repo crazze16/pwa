@@ -13,13 +13,6 @@
 </head>
 <body>
 <noscript>You need to enable JavaScript to run this app.</noscript>
-<div id="root"></div>
-<script>
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js')
-            .then(reg => console.log('SW registered', reg))
-            .catch(error => console.log(error))
-    }
-</script>
+<div>you are offline</div>
 </body>
 </html>
