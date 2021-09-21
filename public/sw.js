@@ -1,5 +1,5 @@
-const CACHE_NAME = 'static-v5';
-const DYNAMIC_CACHE = 'dynamic-v7'
+const CACHE_NAME = 'static-v3';
+const DYNAMIC_CACHE = 'dynamic-v3'
 const ASSETS = [
     'index.html',
     'fallback.html'
